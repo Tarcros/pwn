@@ -1,0 +1,32 @@
+PWN AGENCY
+
+NIÇOISE Tarry	
+MARBOEUF Jérémie
+PHILIBERT Josias
+
+Index.html
+<div id =" abc"> (Ligne 28) qui engendre un <nav> cela nous a permit d'avoir un fond au dessous du <nav> ce qu'il fait que nous pouvons appliqué un dégradé du noir aux transparent laissant apparaître le fond en mettant le "background-size" en "cover" (ligne 10 style.css) .
+Ce <nav> (ligne 29) est annimé et mène vers les différentes pages de notre site.
+
+Nous avons inséré (ligne 39) un <div> & un <nav> permettent de creer un bouton qui réagira vers la page Tourisme (Tourisme2.html). Puis Nous avons mit un nouveau <div> qui va permettre lui de creer un slider de 5 images (Ligne 50), dans le css pour mettre cela on fait plusieur class selectors (ligne 154 style.css) pour chaque image a qui sera affecté un "transform" & " -webkit-transform " permettant de faire un mouvement a l'image ce qui va creer la transition entre les images (étant tous dans le même <div>).
+Évidement accompagné de petit éléments permettent de choisir l'image que l'ont souhaite voir (ligne 184).
+
+Puis, une simple mise a force de contenue expliquant ce qu'est Saint-Malo.
+
+Et pour finir, un <div> & <footer> qui vont permettre de réalisés les footers avec des liens ramenant sur les différentes autres pages.
+
+
+Histoire.html
+Comme pour la page principal, on garge le code directive du site, donc sa structure, sa représentation et son <nav>
+Nous avons réalisé pour la page "Histoire" une représentation simple racountant l'Histoire Facisnante de Saint-Malo, Pour cela deux <p> (ligne 45) avec leurs <h1> Pour le titre du paragraphe, et nous ajoutons a sa droite ou sa gauche une Photo de la ville de Saint-Malo.
+
+Tourisme2.html
+Pour la page du tourisme évidement nous avons ajouté des éléments que nous ne retrouvons pas sur les autres pages comme la barre de recherche qui a été réalisé avec un <input> (ligne 50) de type "text" et un bouton, ce qui donne une barre de recherche en ajoutant le css. Puis la représentation graphique habituel pour présenté la page et le tourisme chez Saint-Malo via des <p> comme je les dit précédement.
+Apres cela nous avons creer une <section> specialement pour la fonctionnalité de destination permettant au utilisateur d'avoir des suggestions de destinations quand il se trouve a Saint-Malo.
+Pour faire ces embed, on s'est un peux aidé de "stackpath" pour la mise a forme en css ainsi que pour les éléments graphiques. Et pour finir cette page, les footers qui nous avons déjà parlé de la manier dont nous l'avons faite.
+
+Rhum.html
+Cette page est destiné a la route du rhum, l'evenemement mettant sous les projecteur la ville de Saint Malo durant 7 a 30jours.
+Le proccessus de conception reste le même, le <nav>, le fond, la concetion du text explicatif ainsi que sont illustration.
+Puis, nous avons rajouté ces onglets permettant d'y connaitre plus sur saint malo. Pour faires ces icons animé, nous avons décidé d'utilisé plusieurs <div> (ligne 50) qui représent les images et simplement dans le css, ajouté des animations lors du passage du cursor sur l'image avec "cursor", "transition" et "transform ".
+Et pour finir, le footer. 
